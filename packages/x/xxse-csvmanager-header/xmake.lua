@@ -5,7 +5,7 @@ package("xxse-csvmanager-header")
     add_deps("rapidcsv")
 
     add_urls("https://github.com/typeryougishiki/xxse-CsvManager-header.git")
-    add_versions("0.1.0", "bfa1f75")
+    add_versions("0.1.0", "bfa1f755c60716b8478ae5f77ab177d72331dea5")
 
     on_install(function (package)
         local configs = {}
