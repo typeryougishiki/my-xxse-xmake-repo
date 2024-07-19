@@ -7,11 +7,7 @@ package("xxse-csvmanager-header")
     add_urls("https://github.com/typeryougishiki/xxse-CsvManager-header.git")
 
     on_install(function (package)
-        local configs = {}
-        if package:config("shared") then
-            configs.kind = "shared"
-        end
-        import("package.tools.xmake").install(package, configs)
+        import("package.tools.xmake").install(package, {})
     end)
 
     on_test(function (package)
